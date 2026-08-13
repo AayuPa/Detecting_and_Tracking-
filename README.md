@@ -113,7 +113,7 @@ football_tracker/
 ├── detector.py      # YOLOv8 wrapper — batched frame inference
 ├── tracker.py       # ByteTrack association, per-class track assembly
 ├── visualize.py     # OpenCV annotation and video writing
-├── main.py          # Pipeline entrypoint
+├── index.py          # Pipeline entrypoint
 ├── models/
 │   └── best.pt      # Fine-tuned detection weights
 ├── input_videos/    # gitignored
