@@ -1,0 +1,12 @@
+# Pinned below 0.30: the sv.ByteTrack interface used in tracker.py is
+# deprecated in newer releases and will need migrating before unpinning.
+supervision<0.30
+
+ultralytics>=8.4.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+
+# Notebooks only
+matplotlib>=3.7.0
+roboflow>=1.1.0
